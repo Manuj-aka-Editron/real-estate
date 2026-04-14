@@ -1,5 +1,6 @@
 'use client';
 import { useRef, useMemo, useEffect, useState } from 'react';
+import Image from 'next/image';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { PerspectiveCamera, Environment, ContactShadows } from '@react-three/drei';
 import * as THREE from 'three';
@@ -151,6 +152,16 @@ function BuildingAssembly({ isMobile, resolvedTheme }: { isMobile: boolean, reso
 
 export default function HeroBuilding() {
   const [isMobile, setIsMobile] = useState(false);
+  
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const { resolvedTheme } = useTheme();
   const currentTheme = resolvedTheme || 'light';
   const [hasError, setHasError] = useState(false);

@@ -170,7 +170,7 @@ export default function PropertiesPage() {
           <div className="py-32 text-center">
             <p className="text-mid-grey text-sm font-light">No properties found matching your criteria.</p>
             <button 
-              onClick={() => { setSearch(''); setSortBy('Newest Arrivals'); }}
+              onClick={() => setActiveMood('All Perspectives')}
               className="mt-6 text-[11px] font-bold uppercase tracking-widest border-b border-foreground pb-1 hover:opacity-50 transition-opacity"
             >
               Reset Filters
