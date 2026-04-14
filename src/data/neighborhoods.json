@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tribeca",
+    "slug": "tribeca",
+    "name": "Tribeca",
+    "tagline": "The Quiet Luxury of the Triangle Below Canal",
+    "mood": "Cobblestones. Loft Living. Discreet.",
+    "description": "Once an industrial district, Tribeca has evolved into NYC's most sought-after neighborhood for those who value privacy, space, and architectural integrity. A masterclass in quiet luxury.",
+    "image": "https://images.unsplash.com/photo-1543269664-76bc3997d9ea?w=1200&h=800&auto=format&fit=crop&q=80",
+    "highlights": [
+      { "name": "The Odeon", "type": "Dining", "desc": "The quintessential brasserie that defined the neighborhood." },
+      { "name": "Pier 26", "type": "Nature", "desc": "Lush gardens and tide decks with panoramic Hudson views." },
+      { "name": "Hook & Ladder 8", "type": "Iconic", "desc": "The historic firehouse famously seen in Ghostbusters." }
+    ]
+  },
+  {
+    "id": "soho",
+    "slug": "soho",
+    "name": "SOHO",
+    "tagline": "Cast Iron Canvases & Artistic Echoes",
+    "mood": "Art. High-Fashion. Historic Steel.",
+    "description": "The world's largest collection of cast-iron architecture. SOHO is an open-air museum where luxury fashion meets the ghosts of the 1970s avant-garde art scene.",
+    "image": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=1200&h=800&auto=format&fit=crop&q=80",
+    "highlights": [
+      { "name": "Mercer Street", "type": "Architecture", "desc": "The heart of the cast-iron district's grand facades." },
+      { "name": "Balthazar", "type": "Dining", "desc": "An iconic French bistro that never goes out of style." },
+      { "name": "Fanelli's Cafe", "type": "Historic", "desc": "A neighborhood landmark since the 1840s." }
+    ]
+  },
+  {
+    "id": "dumbo",
+    "slug": "dumbo",
+    "name": "DUMBO",
+    "tagline": "Beloved Views Under the Bridge",
+    "mood": "Waterfront. Industry. Perspective.",
+    "description": "Down Under the Manhattan Bridge Overpass. A waterfront district defined by its dramatic bridge framings, tech hubs, and impeccably restored factory warehouses.",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&h=800&auto=format&fit=crop&q=80",
+    "highlights": [
+      { "name": "Empire Stores", "type": "Market", "desc": "A warehouse-turned-destination for dining and creative office space." },
+      { "name": "Jane's Carousel", "type": "Cultural", "desc": "A meticulously restored 1922 carousel housed in a Jean Nouvel pavilion." },
+      { "name": "Washington Street", "type": "Visual", "desc": "The world-famous 'Manhattan Bridge in the frame' view." }
+    ]
+  }
+]

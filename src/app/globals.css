@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --color-matte-black: #111111;
+  --color-cool-grey: #F5F5F5;
+  --color-border-grey: #E8E8E8;
+  --color-mid-grey: #888888;
+
+  --font-serif: var(--font-playfair-display);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #0C0C0C;
+  --matte-black: #111111;
+  --cool-grey: #F5F5F5;
+  --border-grey: #E8E8E8;
+  --mid-grey: #888888;
+}
+
+.dark {
+  --background: #0C0C0C;
+  --foreground: #FFFFFF;
+  --matte-black: #FFFFFF;
+  --cool-grey: #1A1A1A;
+  --border-grey: #222222;
+  --mid-grey: #AAAAAA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-inter), sans-serif;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+.font-serif {
+  font-family: var(--font-playfair-display), Georgia, serif;
+}
+
+/* Custom Scrollbar - Editorial Style */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #0C0C0C;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+/* Premium Selection */
+::selection {
+  background: #0C0C0C;
+  color: #FFFFFF;
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Fade up animation */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+/* Line clamp */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

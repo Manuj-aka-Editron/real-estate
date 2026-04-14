@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sky-tower",
+    "name": "Sky Tower Residences",
+    "location": "Downtown Core",
+    "size": "3,500 sqft",
+    "price": "$4,200,000",
+    "aesthetic": "Minimalist",
+    "description": "Ultra luxury penthouses offering panoramic city views. Designed by world-renowned architects to maximize light and space.",
+    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    "id": "golden-palm",
+    "name": "Golden Palm Villas",
+    "location": "Coastal Avenue",
+    "size": "6,200 sqft",
+    "price": "$8,500,000",
+    "aesthetic": "Coastal",
+    "description": "Exclusive beachfront villas with private infinity pools and expansive glass walls that blur the line between indoor and outdoor living.",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    "id": "urban-heights",
+    "name": "Urban Heights",
+    "location": "Midtown District",
+    "size": "2,800 sqft",
+    "price": "$2,900,000",
+    "aesthetic": "Industrial",
+    "description": "Modern luxury loft living in the heart of the cultural district. Features exposed brick, 20-foot ceilings, and polished concrete floors.",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    "id": "brutalist-loft",
+    "name": "The Concrete Curation",
+    "location": "Tribeca",
+    "size": "1,950 sqft",
+    "price": "$3,450,000",
+    "aesthetic": "Brutalist",
+    "description": "A raw, powerful space that celebrates the beauty of structure. Hand-poured concrete surfaces and oversized industrial windows.",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    "id": "heritage-house",
+    "name": "Mercer Heritage",
+    "location": "SOHO",
+    "size": "4,100 sqft",
+    "price": "$9,200,000",
+    "aesthetic": "Old-World",
+    "description": "An impeccably restored cast-iron floor-through residence. Traditional craftsmanship meets absolute modern convenience.",
+    "image": "https://images.unsplash.com/photo-1464146072230-91cabc968266?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    "id": "modernist-pavil",
+    "name": "Glass Pavilion",
+    "location": "Hamptons",
+    "size": "5,400 sqft",
+    "price": "$12,000,000",
+    "aesthetic": "Modernist",
+    "description": "A floating glass sanctuary surrounded by ancient pines. A testament to the mid-century modern aesthetic redefined.",
+    "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1000&auto=format&fit=crop"
+  }
+]
